@@ -90,6 +90,7 @@ export const ALIASES = defineRecord<Alias>()({
     fujimotoProof: {
       en: "NIM could be short for [Nagato Is Me](/en/alias/nagato). Additionally, a user on [this thread](https://bbs.neetsha.jp/board/kako/1344/13446/1344690628.html) said in 2012 that Nagato got another award under the name NIM. Finally, the art style looks like Fujimoto.",
     },
+    links: [{ name: "pixiv", link: "https://www.pixiv.net/en/users/25210" }],
   },
   nagayama: {
     name: { en: "Koharu Nagayama", jp: "ながやま　こはる", "en-romaji": "Nagayama Koharu" },
