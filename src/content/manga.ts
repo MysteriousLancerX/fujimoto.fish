@@ -119,6 +119,24 @@ export const MANGA = defineRecord<Manga>()({
       },
     ],
   },
+  kakikata: {
+    name: {
+      en: "Neetsha Artist Manga Drawing Method Anthology - NagatoIsMe Edition",
+      jp: "新都社作家の漫画の描き方アンソロジー 長門は俺編",
+      "en-romaji": "Neetsha Sakka no Manga no Kakikata Ansorojī NagatoWaOre Hen",
+    },
+    alias: "nagato",
+    type: "one-shot",
+    date: { year: 2010, month: 9, day: 17, certainty: "=" },
+    dateProof: {
+      en: "The earliest [comment](https://neetsha.jp/inside/comment.php?id=9291&page=3&limit=50) mentioning NagatoIsMe was posted on that date. It was at midnight though so it's very possible that it was posted the day before. The earliest comments at all were from the 16th, but the comments are for the anthology as a whole which I think was gradually added to over a few days.",
+    },
+    jpLink: "https://neetsha.jp/inside/comic.php?id=9291&story=23",
+    published: "self-published",
+    note: {
+      en: "This is one work of an anthology made by a bunch of Neetsha artists.",
+    },
+  },
   review: {
     name: {
       en: "Even so, I Suppose I'll Start the Review",
