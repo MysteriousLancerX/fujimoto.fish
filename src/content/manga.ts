@@ -160,14 +160,14 @@ export const MANGA = defineRecord<Manga>()({
     type: "one-shot",
     date: { year: 2011, certainty: "?" },
     dateProof: {
-      en: "The manga that we know the dates of on [this page](http://nagatoisme.web.fc2.com/sonota.html) appear to be in chronological order. If the ones we don't know the dates of are as well, then that would mean this manga came out in late 2010 or early 2011.",
+      en: "The manga that we know the dates of on [this page](http://nagatoisme.web.fc2.com/sonota.html) appear to be in chronological order. If the ones we don't know the dates of are as well, then that would mean this manga came out in late 2010 or early 2011. The latest it could have been published is 11 June 2011 because that is the modified date of an [image](https://pierrot.fool.jp/comic/nounaioff/4_3.png) that mentions it.",
     },
     published: "unpublished",
     existenceProof: {
       en: "It's listed on [one of Fujimoto's websites](http://nagatoisme.web.fc2.com/sonota.html). Unfortunately, the link to it is now dead.",
     },
     note: {
-      en: "The title is shortened on this [page](http://nagatoisme.web.fc2.com/sonota.html) as 明日戦; the full title can be seen in this [manga](https://pierrot.fool.jp/comic/nounaioff/n4.html) where an incomplete list of works by NagatoIsMe was included. The same manga also claimed that _Tomorrow, on the Planet where War Commences_ was a one-shot work."
+      en: "The title is shortened on this [page](http://nagatoisme.web.fc2.com/sonota.html) as 明日戦; the full title can be seen in this [manga](https://pierrot.fool.jp/comic/nounaioff/n4.html) where an incomplete list of works by NagatoIsMe was included. The same manga also claimed that _Tomorrow, on the Planet where War Commences_ was a one-shot work.",
     },
   },
   ac: {
@@ -179,7 +179,7 @@ export const MANGA = defineRecord<Manga>()({
     type: "one-shot",
     date: { year: 2011, certainty: "?" },
     dateProof: {
-      en: "The manga that we know the dates of on [this page](http://nagatoisme.web.fc2.com/sonota.html) appear to be in chronological order. If the ones we don't know the dates of are as well, then that would mean this manga came out in late 2010 or early 2011.",
+      en: "The manga that we know the dates of on [this page](http://nagatoisme.web.fc2.com/sonota.html) appear to be in chronological order. If the ones we don't know the dates of are as well, then that would mean this manga came out in late 2010 or early 2011. The latest it could have been published is 11 June 2011 because that is the modified date of an [image](https://pierrot.fool.jp/comic/nounaioff/4_3.png) that mentions it.",
     },
     published: "unpublished",
     existenceProof: {
@@ -330,7 +330,7 @@ export const MANGA = defineRecord<Manga>()({
     name: {
       en: "Grave of the Fireflies VS Alien",
       jp: "火垂るの墓VSエイリアン",
-      "en-romaji": "Hotaru no Haka VS Eirian"
+      "en-romaji": "Hotaru no Haka VS Eirian",
     },
     alias: "nagato",
     date: { year: 2012, certainty: "?" },
@@ -339,8 +339,8 @@ export const MANGA = defineRecord<Manga>()({
     },
     published: "unpublished",
     existenceProof: {
-      en: "Listed in a Neetsha BBS [thread](https://bbs.neetsha.jp/board/kako/1344/13446/1344690628.html) dedicated to NagatoIsMe. The thread also mentioned \"a lifestyle shift from Koike Teppei to Oku Hanako\", with Koike Teppei was and Oku Hanako both being famed Japanese singers; this might refer to a Twitter profile picture change (@NagatoIsMe once used a photo of Koike Teppei as his profile picture, which can be seen from this [manga](https://pierrot.fool.jp/comic/nounaioff/n4.html)) or an alias change, but no further evidence have been found for either possibility for now. Also mentioned in a 5ch thread (archived [here](https://kako.5ch.io/test/read.cgi/wcomic/1468548781/)) dedicated to _Fire Punch_.",
-    }
+      en: 'Listed in a Neetsha BBS [thread](https://bbs.neetsha.jp/board/kako/1344/13446/1344690628.html) dedicated to NagatoIsMe. The thread also mentioned "a lifestyle shift from Koike Teppei to Oku Hanako", with Koike Teppei was and Oku Hanako both being famed Japanese singers; this might refer to a Twitter profile picture change (@NagatoIsMe once used a photo of Koike Teppei as his profile picture, which can be seen from this [manga](https://pierrot.fool.jp/comic/nounaioff/n4.html)) or an alias change, but no further evidence have been found for either possibility for now. Also mentioned in a 5ch thread (archived [here](https://kako.5ch.io/test/read.cgi/wcomic/1468548781/)) dedicated to _Fire Punch_.',
+    },
   },
   fukushuu: {
     name: {
