@@ -348,6 +348,9 @@ export const MANGA = defineRecord<Manga>()({
     existenceProof: {
       en: "It was a finalist in [Supreme Comic 大賞 season II 第4回](https://web.archive.org/web/20130323045057/http://jumpsq.shueisha.co.jp/mangasyou/sc2/index04.html).",
     },
+    note: {
+      en: "In [this interview](https://rookie.shonenjump.com/info/entry/202007_blog) we see an email Fujimoto wrote to his editor at the start of 2012. It says he changed the title (of an unspecified manga) from 勇者制度 (The Hero System) to 勇者の剣 (Sword of the Hero). Given the timing and reference to a sword, I think this could be talking about _Sword of Revenge_.",
+    },
   },
   alien: {
     name: {
