@@ -121,9 +121,9 @@ export const MANGA = defineRecord<Manga>()({
   },
   kakikata: {
     name: {
-      en: "Neetsha Artist Manga Drawing Method Anthology - NagatoIsMe Edition",
-      jp: "新都社作家の漫画の描き方アンソロジー 長門は俺編",
-      "en-romaji": "Neetsha Sakka no Manga no Kakikata Ansorojī NagatoWaOre Hen",
+      en: "Neetsha Artist Manga Drawing Method Anthology\nNagatoIsMe Edition",
+      jp: "新都社作家の漫画の描き方アンソロジー\n長門は俺編",
+      "en-romaji": "Neetsha Sakka no Manga no Kakikata Ansorojī\nNagatoWaOre Hen",
     },
     alias: "nagato",
     type: "one-shot",
@@ -205,6 +205,24 @@ export const MANGA = defineRecord<Manga>()({
     },
     note: {
       en: "The title is listed on this [page](http://nagatoisme.web.fc2.com/sonota.html) as AC; based on this [manga](https://pierrot.fool.jp/comic/nounaioff/n4.html) where an incomplete list of works by NagatoIsMe was included, _AC_ is actually its full title. The same manga also claimed that _AC_ was a one-shot work.",
+    },
+  },
+  chinko: {
+    name: {
+      en: "Penis Length Anthology\nBeyond the Clouds, the Penis Place",
+      jp: "チンコの長さアンソロジー\n雲のむこう、ちんこの場所",
+      "en-romaji": "Chinko no Nagasa Ansorojī\nKumo no Mukō, Chinko no Basho",
+    },
+    alias: "nagato",
+    type: "one-shot",
+    date: { year: 2011, month: 4, day: 17, certainty: "=" },
+    dateProof: {
+      en: "The earliest [comments](https://www.neetsha.jp/inside/comment.php?id=10657&limit=1000) on it, including many talking about NagatoIsMe, are from this date.",
+    },
+    jpLink: "https://www.neetsha.jp/inside/comic.php?id=10657&story=4",
+    published: "self-published",
+    note: {
+      en: "This is one work of an anthology made by a bunch of Neetsha artists.\n\nIt doesn't actually say that this was made by Nagato, but based on the comments, artstyle, and references to Teppei Koike (Nagato used a picture of him as his profile picture and people joked that he was him), we can be fairly certain it was made by him.\n\nThe picture I used here is from the third page instead of the first because the first two pages seem a bit off. They don't seem related to the rest of the story, they don't use typed text, and I think the art style sort of doesn't seem like Fujimoto's, though it still definitely could be.",
     },
   },
   densetsu: {
@@ -384,7 +402,7 @@ export const MANGA = defineRecord<Manga>()({
     },
     published: "unpublished",
     existenceProof: {
-      en: 'Listed in a Neetsha BBS [thread](https://bbs.neetsha.jp/board/kako/1344/13446/1344690628.html) dedicated to NagatoIsMe. The thread also mentioned "a lifestyle shift from Koike Teppei to Oku Hanako", with Koike Teppei was and Oku Hanako both being famed Japanese singers; this might refer to a Twitter profile picture change (@NagatoIsMe once used a photo of Koike Teppei as his profile picture, which can be seen from this [manga](https://pierrot.fool.jp/comic/nounaioff/n4.html)) or an alias change, but no further evidence have been found for either possibility for now. Also mentioned in a 5ch thread (archived [here](https://kako.5ch.io/test/read.cgi/wcomic/1468548781/)) dedicated to _Fire Punch_.',
+      en: 'Listed in a Neetsha BBS [thread](https://bbs.neetsha.jp/board/kako/1344/13446/1344690628.html) dedicated to NagatoIsMe. The thread also mentioned "a lifestyle shift from Teppei Koike to Oku Hanako", with Teppei Koike and Hanako Oku both being famed Japanese singers; this might refer to a Twitter profile picture change (@NagatoIsMe once used a photo of Teppei Koike as his profile picture, which can be seen from this [manga](https://pierrot.fool.jp/comic/nounaioff/n4.html)) or an alias change, but no further evidence have been found for either possibility for now. Also mentioned in a 5ch thread (archived [here](https://kako.5ch.io/test/read.cgi/wcomic/1468548781/)) dedicated to _Fire Punch_.',
     },
   },
   seigi: {

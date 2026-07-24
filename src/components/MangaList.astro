@@ -32,7 +32,7 @@ const { manga, locale } = Astro.props;
               )}
             </div>
             <div>
-              <h3 class="font-bold">{displayWord(m.name, locale)}</h3>
+              <h3 class="font-bold whitespace-pre-wrap">{displayWord(m.name, locale)}</h3>
               <div>{displayAlias(m.alias, locale)}</div>
             </div>
             <div>
