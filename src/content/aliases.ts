@@ -12,6 +12,7 @@ interface Alias {
   description?: Word;
   fujimotoProof?: Word;
   links?: Link[];
+  otherInfo?: Word;
 }
 
 export const ALIASES = defineRecord<Alias>()({
@@ -77,6 +78,9 @@ export const ALIASES = defineRecord<Alias>()({
         link: "http://nagatohaore.web.fc2.com/",
       },
     ],
+    otherInfo: {
+      en: 'There is also a recipe on how to make a ["Rich black sesame ice cream"](https://neetsha.jp/inside/comic.php?id=18005&story=1) but it was not included above since it is not really a manga.',
+    },
   },
   nim: {
     name: { en: "NIM", jp: "ＮＩＭ" },

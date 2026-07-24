@@ -17,7 +17,7 @@ export function getStaticPaths() {
 }
 
 const { locale, alias } = Astro.params;
-const { name, description, fujimotoProof, links } = ALIASES[alias];
+const { name, description, fujimotoProof, links, otherInfo } = ALIASES[alias];
 
 const manga = objectKeys(MANGA).filter((m) => MANGA[m].alias === alias);
 ---
@@ -59,4 +59,5 @@ const manga = objectKeys(MANGA).filter((m) => MANGA[m].alias === alias);
   <MarkdownSection heading={{ en: "Evidence for being Fujimoto" }} text={fujimotoProof} />
   <h2 class="mb-0 text-lg font-semibold">Manga</h2>
   <MangaList manga={manga} locale={locale} />
+  <MarkdownSection heading={{ en: "Other Information" }} text={otherInfo} />
 </Layout>
