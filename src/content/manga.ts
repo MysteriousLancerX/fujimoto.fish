@@ -326,22 +326,6 @@ export const MANGA = defineRecord<Manga>()({
     },
     published: "published",
   },
-  alien: {
-    name: {
-      en: "Grave of the Fireflies VS Alien",
-      jp: "火垂るの墓VSエイリアン",
-      "en-romaji": "Hotaru no Haka VS Eirian",
-    },
-    alias: "nagato",
-    date: { year: 2012, certainty: "?" },
-    dateProof: {
-      en: "A Neetsha BBS [thread](https://bbs.neetsha.jp/board/kako/1344/13446/1344690628.html) dedicated to NagatoIsMe placed the work at NagatoIsMe's 2nd university year, whereas _Tetteleposan_ and _A Couple Clucking Chickens_ were placed at his first.",
-    },
-    published: "unpublished",
-    existenceProof: {
-      en: 'Listed in a Neetsha BBS [thread](https://bbs.neetsha.jp/board/kako/1344/13446/1344690628.html) dedicated to NagatoIsMe. The thread also mentioned "a lifestyle shift from Koike Teppei to Oku Hanako", with Koike Teppei was and Oku Hanako both being famed Japanese singers; this might refer to a Twitter profile picture change (@NagatoIsMe once used a photo of Koike Teppei as his profile picture, which can be seen from this [manga](https://pierrot.fool.jp/comic/nounaioff/n4.html)) or an alias change, but no further evidence have been found for either possibility for now. Also mentioned in a 5ch thread (archived [here](https://kako.5ch.io/test/read.cgi/wcomic/1468548781/)) dedicated to _Fire Punch_.',
-    },
-  },
   fukushuu: {
     name: {
       en: "Sword of Revenge",
@@ -363,6 +347,23 @@ export const MANGA = defineRecord<Manga>()({
     published: "unpublished",
     existenceProof: {
       en: "It was a finalist in [Supreme Comic 大賞 season II 第4回](https://web.archive.org/web/20130323045057/http://jumpsq.shueisha.co.jp/mangasyou/sc2/index04.html).",
+    },
+  },
+  alien: {
+    name: {
+      en: "Grave of the Fireflies VS Alien",
+      jp: "火垂るの墓VSエイリアン",
+      "en-romaji": "Hotaru no Haka VS Eirian",
+    },
+    alias: "nagato",
+    type: "series",
+    date: { year: 2012, certainty: "?" },
+    dateProof: {
+      en: "A Neetsha BBS [thread](https://bbs.neetsha.jp/board/kako/1344/13446/1344690628.html) dedicated to NagatoIsMe placed the work at NagatoIsMe's 2nd university year, whereas _Tetteleposan_ and _A Couple Clucking Chickens_ were placed at his first. Furthermore, the thread was posted on 11 August 2012 and it says that _Grave of the Fireflies VS Alien_ is currently being serialised. Based on the length of Fujimoto's other series he had made at that point, it's maybe more likely than not that it started after _Sword of Revenge_ was done.",
+    },
+    published: "unpublished",
+    existenceProof: {
+      en: 'Listed in a Neetsha BBS [thread](https://bbs.neetsha.jp/board/kako/1344/13446/1344690628.html) dedicated to NagatoIsMe. The thread also mentioned "a lifestyle shift from Koike Teppei to Oku Hanako", with Koike Teppei was and Oku Hanako both being famed Japanese singers; this might refer to a Twitter profile picture change (@NagatoIsMe once used a photo of Koike Teppei as his profile picture, which can be seen from this [manga](https://pierrot.fool.jp/comic/nounaioff/n4.html)) or an alias change, but no further evidence have been found for either possibility for now. Also mentioned in a 5ch thread (archived [here](https://kako.5ch.io/test/read.cgi/wcomic/1468548781/)) dedicated to _Fire Punch_.',
     },
   },
   seigi: {
